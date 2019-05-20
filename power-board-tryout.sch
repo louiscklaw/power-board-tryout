@@ -1,0 +1,742 @@
+EESchema Schematic File Version 4
+LIBS:power-board-tryout-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L taobao-board:MP1584-BREAKOUT-BOARD U1
+U 1 1 5CE2A93C
+P 3500 1600
+F 0 "U1" H 3500 2100 50  0000 C CNN
+F 1 "MP1584-BREAKOUT-BOARD" H 3500 2000 50  0000 C CNN
+F 2 "footprint-lib:MP1584_buck_module" H 3500 1600 50  0001 C CNN
+F 3 "" H 3500 1600 50  0001 C CNN
+	1    3500 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-board:MP1584-BREAKOUT-BOARD U2
+U 1 1 5CE2AB7C
+P 3500 2550
+F 0 "U2" H 3500 3050 50  0000 C CNN
+F 1 "MP1584-BREAKOUT-BOARD" H 3500 2950 50  0000 C CNN
+F 2 "footprint-lib:MP1584_buck_module" H 3500 2550 50  0001 C CNN
+F 3 "" H 3500 2550 50  0001 C CNN
+	1    3500 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-board:MP1584-BREAKOUT-BOARD U3
+U 1 1 5CE2AF23
+P 3500 3450
+F 0 "U3" H 3500 3950 50  0000 C CNN
+F 1 "MP1584-BREAKOUT-BOARD" H 3500 3850 50  0000 C CNN
+F 2 "footprint-lib:MP1584_buck_module" H 3500 3450 50  0001 C CNN
+F 3 "" H 3500 3450 50  0001 C CNN
+	1    3500 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-board:MP1584-BREAKOUT-BOARD U4
+U 1 1 5CE2B231
+P 3500 4350
+F 0 "U4" H 3500 4850 50  0000 C CNN
+F 1 "MP1584-BREAKOUT-BOARD" H 3500 4750 50  0000 C CNN
+F 2 "footprint-lib:MP1584_buck_module" H 3500 4350 50  0001 C CNN
+F 3 "" H 3500 4350 50  0001 C CNN
+	1    3500 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-board:MP1584-BREAKOUT-BOARD U5
+U 1 1 5CE2B54C
+P 3500 5300
+F 0 "U5" H 3500 5800 50  0000 C CNN
+F 1 "MP1584-BREAKOUT-BOARD" H 3500 5700 50  0000 C CNN
+F 2 "footprint-lib:MP1584_buck_module" H 3500 5300 50  0001 C CNN
+F 3 "" H 3500 5300 50  0001 C CNN
+	1    3500 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:Jumper_2_Open JP1
+U 1 1 5CE2BEEF
+P 4700 1450
+F 0 "JP1" H 4700 1700 50  0000 C CNN
+F 1 "Jumper_2_Open" H 4700 1600 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4700 1450 50  0001 C CNN
+F 3 "~" H 4700 1450 50  0001 C CNN
+	1    4700 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:Jumper_2_Open JP3
+U 1 1 5CE2C70C
+P 4700 2400
+F 0 "JP3" H 4700 2650 50  0000 C CNN
+F 1 "Jumper_2_Open" H 4700 2550 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4700 2400 50  0001 C CNN
+F 3 "~" H 4700 2400 50  0001 C CNN
+	1    4700 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:Jumper_2_Open JP5
+U 1 1 5CE2CBFC
+P 4700 3300
+F 0 "JP5" H 4700 3550 50  0000 C CNN
+F 1 "Jumper_2_Open" H 4700 3450 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4700 3300 50  0001 C CNN
+F 3 "~" H 4700 3300 50  0001 C CNN
+	1    4700 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:Jumper_2_Open JP7
+U 1 1 5CE2D25B
+P 4700 4200
+F 0 "JP7" H 4700 4450 50  0000 C CNN
+F 1 "Jumper_2_Open" H 4700 4350 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4700 4200 50  0001 C CNN
+F 3 "~" H 4700 4200 50  0001 C CNN
+	1    4700 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:Jumper_2_Open JP9
+U 1 1 5CE2D6EF
+P 4700 5150
+F 0 "JP9" H 4700 5400 50  0000 C CNN
+F 1 "Jumper_2_Open" H 4700 5300 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4700 5150 50  0001 C CNN
+F 3 "~" H 4700 5150 50  0001 C CNN
+	1    4700 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 1450 4500 1450
+Wire Wire Line
+	4100 2400 4500 2400
+Wire Wire Line
+	4100 3300 4500 3300
+Wire Wire Line
+	4100 4200 4500 4200
+Wire Wire Line
+	4100 5150 4500 5150
+$Comp
+L Connector:Conn_01x02_Male J1
+U 1 1 5CE2E967
+P 6500 1450
+F 0 "J1" H 6450 1450 50  0000 R CNN
+F 1 "3V3_OUT" H 6450 1350 50  0000 R CNN
+F 2 "footprint-lib:PinHeader_1x02_P2.54mm_power_output_terminal" H 6500 1450 50  0001 C CNN
+F 3 "~" H 6500 1450 50  0001 C CNN
+	1    6500 1450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 1750 4200 1750
+Wire Wire Line
+	4200 2700 4100 2700
+Wire Wire Line
+	4200 3600 4100 3600
+Wire Wire Line
+	4200 4500 4100 4500
+Wire Wire Line
+	4200 5450 4100 5450
+Wire Wire Line
+	2900 1450 2600 1450
+Wire Wire Line
+	2600 1450 2600 1500
+Wire Wire Line
+	2600 1500 2600 2400
+Wire Wire Line
+	2600 2400 2900 2400
+Connection ~ 2600 1500
+Wire Wire Line
+	2600 2400 2600 3300
+Wire Wire Line
+	2600 3300 2900 3300
+Connection ~ 2600 2400
+Wire Wire Line
+	2600 3300 2600 4200
+Wire Wire Line
+	2600 4200 2900 4200
+Connection ~ 2600 3300
+Wire Wire Line
+	2600 4200 2600 5150
+Wire Wire Line
+	2600 5150 2900 5150
+Connection ~ 2600 4200
+Wire Wire Line
+	2900 5450 2800 5450
+Wire Wire Line
+	2800 5450 2800 4500
+Wire Wire Line
+	2800 4500 2900 4500
+Wire Wire Line
+	2800 4500 2800 3600
+Wire Wire Line
+	2800 3600 2900 3600
+Connection ~ 2800 4500
+Wire Wire Line
+	2800 3600 2800 2700
+Wire Wire Line
+	2800 2700 2900 2700
+Connection ~ 2800 3600
+Wire Wire Line
+	2800 2700 2800 1800
+Wire Wire Line
+	2800 1750 2900 1750
+Connection ~ 2800 2700
+$Comp
+L Connector:Screw_Terminal_01x04 J2
+U 1 1 5CE378AC
+P 1350 1600
+F 0 "J2" H 1250 1950 50  0000 C CNN
+F 1 "Screw_Terminal_01x04" H 1250 1850 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1350 1600 50  0000 C CNN
+F 3 "~" H 1350 1600 50  0001 C CNN
+	1    1350 1600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 1500 1750 1500
+Wire Wire Line
+	1550 1800 1750 1800
+Connection ~ 2800 1800
+Wire Wire Line
+	2800 1800 2800 1750
+Wire Wire Line
+	1550 1600 1750 1600
+Wire Wire Line
+	1750 1600 1750 1500
+Connection ~ 1750 1500
+Wire Wire Line
+	1750 1500 2600 1500
+Wire Wire Line
+	1550 1700 1750 1700
+Wire Wire Line
+	1750 1700 1750 1800
+Connection ~ 1750 1800
+Wire Wire Line
+	1750 1800 2050 1800
+Text Label 2100 1500 0    50   ~ 0
+PWR
+$Comp
+L power:GND #PWR0101
+U 1 1 5CE3A947
+P 2050 1950
+F 0 "#PWR0101" H 2050 1700 50  0001 C CNN
+F 1 "GND" H 2100 1750 50  0000 C CNN
+F 2 "" H 2050 1950 50  0001 C CNN
+F 3 "" H 2050 1950 50  0001 C CNN
+	1    2050 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 1950 2050 1800
+Connection ~ 2050 1800
+Wire Wire Line
+	2050 1800 2800 1800
+$Comp
+L Device:Jumper_NO_Small JP2
+U 1 1 5CE3C08F
+P 4200 2150
+F 0 "JP2" V 4150 2200 50  0000 L CNN
+F 1 "Jumper_NO_Small" V 4200 2200 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4200 2150 50  0001 C CNN
+F 3 "~" H 4200 2150 50  0001 C CNN
+	1    4200 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4200 1750 4200 2050
+Wire Wire Line
+	4200 2250 4200 2650
+$Comp
+L Device:Jumper_NO_Small JP4
+U 1 1 5CE3DB4D
+P 4200 3100
+F 0 "JP4" V 4150 3150 50  0000 L CNN
+F 1 "Jumper_NO_Small" V 4200 3150 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4200 3100 50  0001 C CNN
+F 3 "~" H 4200 3100 50  0001 C CNN
+	1    4200 3100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4200 2700 4200 3000
+Connection ~ 4200 2700
+Wire Wire Line
+	4200 3200 4200 3550
+$Comp
+L Device:Jumper_NO_Small JP6
+U 1 1 5CE40C72
+P 4200 4000
+F 0 "JP6" V 4150 4050 50  0000 L CNN
+F 1 "Jumper_NO_Small" V 4200 4050 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4200 4000 50  0001 C CNN
+F 3 "~" H 4200 4000 50  0001 C CNN
+	1    4200 4000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4200 3600 4200 3900
+Connection ~ 4200 3600
+Wire Wire Line
+	4200 4500 4200 4450
+$Comp
+L Device:Jumper_NO_Small JP8
+U 1 1 5CE42DAC
+P 4200 4850
+F 0 "JP8" V 4150 4900 50  0000 L CNN
+F 1 "Jumper_NO_Small" V 4200 4900 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4200 4850 50  0001 C CNN
+F 3 "~" H 4200 4850 50  0001 C CNN
+	1    4200 4850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4200 4500 4200 4750
+Connection ~ 4200 4500
+Wire Wire Line
+	4200 4950 4200 5400
+$Comp
+L Connector:Conn_01x02_Male J3
+U 1 1 5CE466E7
+P 6500 2400
+F 0 "J3" H 6450 2400 50  0000 R CNN
+F 1 "5V_OUT" H 6450 2300 50  0000 R CNN
+F 2 "footprint-lib:PinHeader_1x02_P2.54mm_power_output_terminal" H 6500 2400 50  0001 C CNN
+F 3 "~" H 6500 2400 50  0001 C CNN
+	1    6500 2400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J4
+U 1 1 5CE49148
+P 6500 3300
+F 0 "J4" H 6450 3300 50  0000 R CNN
+F 1 "AUX1_OUT" H 6450 3200 50  0000 R CNN
+F 2 "footprint-lib:PinHeader_1x02_P2.54mm_power_output_terminal" H 6500 3300 50  0001 C CNN
+F 3 "~" H 6500 3300 50  0001 C CNN
+	1    6500 3300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J5
+U 1 1 5CE49606
+P 6500 4200
+F 0 "J5" H 6450 4200 50  0000 R CNN
+F 1 "AUX2_OUT" H 6450 4100 50  0000 R CNN
+F 2 "footprint-lib:PinHeader_1x02_P2.54mm_power_output_terminal" H 6500 4200 50  0001 C CNN
+F 3 "~" H 6500 4200 50  0001 C CNN
+	1    6500 4200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J6
+U 1 1 5CE499FD
+P 6500 5150
+F 0 "J6" H 6450 5150 50  0000 R CNN
+F 1 "AUX3_OUT" H 6450 5050 50  0000 R CNN
+F 2 "footprint-lib:PinHeader_1x02_P2.54mm_power_output_terminal" H 6500 5150 50  0001 C CNN
+F 3 "~" H 6500 5150 50  0001 C CNN
+	1    6500 5150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L taobao-led:LED_GREEN,0805 D1
+U 1 1 5CE4AC96
+P 5900 1700
+F 0 "D1" V 5950 1600 50  0000 R CNN
+F 1 "LED_GREEN,0805" V 5900 1600 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5900 1700 50  0001 C CNN
+F 3 "" V 5900 1700 50  0001 C CNN
+	1    5900 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L taobao-r:R103,0805 R2
+U 1 1 5CE4B7AC
+P 5900 1950
+F 0 "R2" H 6000 2000 50  0000 L CNN
+F 1 "R103,0805" H 6000 1950 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5900 1950 50  0001 C CNN
+F 3 "~" H 5900 1950 50  0001 C CNN
+	1    5900 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 1450 5550 1450
+Wire Wire Line
+	5900 1450 5900 1600
+Wire Wire Line
+	6300 1450 5900 1450
+Connection ~ 5900 1450
+Wire Wire Line
+	5900 2100 5900 2050
+Wire Wire Line
+	5900 1800 5900 1850
+$Comp
+L taobao-led:LED_GREEN,0805 D2
+U 1 1 5CE5B412
+P 5900 2650
+F 0 "D2" V 5950 2550 50  0000 R CNN
+F 1 "LED_GREEN,0805" V 5900 2550 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5900 2650 50  0001 C CNN
+F 3 "" V 5900 2650 50  0001 C CNN
+	1    5900 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L taobao-r:R103,0805 R4
+U 1 1 5CE5B41C
+P 5900 2900
+F 0 "R4" H 6000 2950 50  0000 L CNN
+F 1 "R103,0805" H 6000 2900 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5900 2900 50  0001 C CNN
+F 3 "~" H 5900 2900 50  0001 C CNN
+	1    5900 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 2400 5900 2550
+Wire Wire Line
+	5900 3050 5900 3000
+Wire Wire Line
+	5900 2750 5900 2800
+$Comp
+L taobao-led:LED_GREEN,0805 D3
+U 1 1 5CE5F548
+P 5900 3550
+F 0 "D3" V 5950 3450 50  0000 R CNN
+F 1 "LED_GREEN,0805" V 5900 3450 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5900 3550 50  0001 C CNN
+F 3 "" V 5900 3550 50  0001 C CNN
+	1    5900 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L taobao-r:R103,0805 R6
+U 1 1 5CE5F552
+P 5900 3800
+F 0 "R6" H 6000 3850 50  0000 L CNN
+F 1 "R103,0805" H 6000 3800 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5900 3800 50  0001 C CNN
+F 3 "~" H 5900 3800 50  0001 C CNN
+	1    5900 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 3300 5900 3450
+Wire Wire Line
+	5900 3950 5900 3900
+Wire Wire Line
+	5900 3650 5900 3700
+$Comp
+L taobao-led:LED_GREEN,0805 D4
+U 1 1 5CE670DC
+P 5900 4450
+F 0 "D4" V 5950 4350 50  0000 R CNN
+F 1 "LED_GREEN,0805" V 5900 4350 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5900 4450 50  0001 C CNN
+F 3 "" V 5900 4450 50  0001 C CNN
+	1    5900 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L taobao-r:R103,0805 R8
+U 1 1 5CE670E6
+P 5900 4700
+F 0 "R8" H 6000 4750 50  0000 L CNN
+F 1 "R103,0805" H 6000 4700 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5900 4700 50  0001 C CNN
+F 3 "~" H 5900 4700 50  0001 C CNN
+	1    5900 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 4200 5900 4350
+Wire Wire Line
+	5900 4850 5900 4800
+Wire Wire Line
+	5900 4550 5900 4600
+$Comp
+L taobao-led:LED_GREEN,0805 D5
+U 1 1 5CE6F135
+P 5900 5400
+F 0 "D5" V 5950 5300 50  0000 R CNN
+F 1 "LED_GREEN,0805" V 5900 5300 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5900 5400 50  0001 C CNN
+F 3 "" V 5900 5400 50  0001 C CNN
+	1    5900 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L taobao-r:R103,0805 R10
+U 1 1 5CE6F13F
+P 5900 5650
+F 0 "R10" H 6000 5700 50  0000 L CNN
+F 1 "R103,0805" H 6000 5650 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5900 5650 50  0001 C CNN
+F 3 "~" H 5900 5650 50  0001 C CNN
+	1    5900 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 5150 5900 5300
+Wire Wire Line
+	5900 5800 5900 5750
+Wire Wire Line
+	5900 5500 5900 5550
+Wire Wire Line
+	4900 5150 5550 5150
+Connection ~ 5900 5150
+Wire Wire Line
+	5900 5150 6300 5150
+Wire Wire Line
+	4900 4200 5550 4200
+Connection ~ 5900 4200
+Wire Wire Line
+	5900 4200 6300 4200
+Wire Wire Line
+	4900 2400 5550 2400
+Connection ~ 5900 2400
+Wire Wire Line
+	5900 2400 6300 2400
+Wire Wire Line
+	4900 3300 5550 3300
+Connection ~ 5900 3300
+Wire Wire Line
+	5900 3300 6300 3300
+Wire Wire Line
+	4200 1750 5300 1750
+Wire Wire Line
+	5300 1750 5300 1550
+Wire Wire Line
+	5300 1550 6300 1550
+Connection ~ 4200 1750
+Wire Wire Line
+	4200 2650 5300 2650
+Wire Wire Line
+	5300 2650 5300 2500
+Wire Wire Line
+	5300 2500 6300 2500
+Connection ~ 4200 2650
+Wire Wire Line
+	4200 2650 4200 2700
+Wire Wire Line
+	4200 3550 5300 3550
+Wire Wire Line
+	5300 3550 5300 3400
+Wire Wire Line
+	5300 3400 6300 3400
+Connection ~ 4200 3550
+Wire Wire Line
+	4200 3550 4200 3600
+Wire Wire Line
+	4200 4450 5300 4450
+Wire Wire Line
+	5300 4450 5300 4300
+Wire Wire Line
+	5300 4300 6300 4300
+Connection ~ 4200 4450
+Wire Wire Line
+	4200 4450 4200 4100
+Wire Wire Line
+	4200 5400 5300 5400
+Wire Wire Line
+	5300 5400 5300 5250
+Wire Wire Line
+	5300 5250 6300 5250
+Connection ~ 4200 5400
+Wire Wire Line
+	4200 5400 4200 5450
+$Comp
+L taobao-varistor:VAR_5V6,0805 R1
+U 1 1 5CE303D3
+P 5550 1800
+F 0 "R1" H 5700 1850 50  0000 L CNN
+F 1 "VAR_5V6,0805" H 5700 1800 50  0000 L CNN
+F 2 "footprint-lib:VAR_0805" H 5550 1800 50  0001 C CNN
+F 3 "~" H 5550 1800 50  0001 C CNN
+	1    5550 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 1950 5550 2100
+Wire Wire Line
+	5550 1450 5550 1650
+Connection ~ 5550 1450
+Wire Wire Line
+	5550 1450 5900 1450
+$Comp
+L taobao-varistor:VAR_5V6,0805 R3
+U 1 1 5CE354AA
+P 5550 2750
+F 0 "R3" H 5700 2800 50  0000 L CNN
+F 1 "VAR_5V6,0805" H 5700 2750 50  0000 L CNN
+F 2 "footprint-lib:VAR_0805" H 5550 2750 50  0001 C CNN
+F 3 "~" H 5550 2750 50  0001 C CNN
+	1    5550 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 2900 5550 3050
+Wire Wire Line
+	5550 2400 5550 2600
+Connection ~ 5550 2400
+Wire Wire Line
+	5550 2400 5900 2400
+$Comp
+L taobao-varistor:VAR_5V6,0805 R5
+U 1 1 5CE3AC9B
+P 5550 3650
+F 0 "R5" H 5700 3700 50  0000 L CNN
+F 1 "VAR_5V6,0805" H 5700 3650 50  0000 L CNN
+F 2 "footprint-lib:VAR_0805" H 5550 3650 50  0001 C CNN
+F 3 "~" H 5550 3650 50  0001 C CNN
+	1    5550 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 3800 5550 3950
+Wire Wire Line
+	5550 3300 5550 3500
+Connection ~ 5550 3300
+Wire Wire Line
+	5550 3300 5900 3300
+$Comp
+L taobao-varistor:VAR_5V6,0805 R7
+U 1 1 5CE41625
+P 5550 4550
+F 0 "R7" H 5700 4600 50  0000 L CNN
+F 1 "VAR_5V6,0805" H 5700 4550 50  0000 L CNN
+F 2 "footprint-lib:VAR_0805" H 5550 4550 50  0001 C CNN
+F 3 "~" H 5550 4550 50  0001 C CNN
+	1    5550 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 4700 5550 4850
+Wire Wire Line
+	5550 4200 5550 4400
+Connection ~ 5550 4200
+Wire Wire Line
+	5550 4200 5900 4200
+$Comp
+L taobao-varistor:VAR_5V6,0805 R9
+U 1 1 5CE45FA9
+P 5550 5500
+F 0 "R9" H 5700 5550 50  0000 L CNN
+F 1 "VAR_5V6,0805" H 5700 5500 50  0000 L CNN
+F 2 "footprint-lib:VAR_0805" H 5550 5500 50  0001 C CNN
+F 3 "~" H 5550 5500 50  0001 C CNN
+	1    5550 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 5650 5550 5800
+Wire Wire Line
+	5550 5150 5550 5350
+Connection ~ 5550 5150
+Wire Wire Line
+	5550 5150 5900 5150
+Wire Wire Line
+	5900 5800 5550 5800
+Wire Wire Line
+	5550 5800 5300 5800
+Wire Wire Line
+	5300 5800 5300 5400
+Connection ~ 5550 5800
+Connection ~ 5300 5400
+Wire Wire Line
+	5300 4850 5300 4450
+Wire Wire Line
+	5300 4850 5550 4850
+Connection ~ 5550 4850
+Wire Wire Line
+	5550 4850 5900 4850
+Connection ~ 5300 4450
+Wire Wire Line
+	5900 3950 5550 3950
+Wire Wire Line
+	5300 3950 5300 3550
+Connection ~ 5550 3950
+Wire Wire Line
+	5550 3950 5300 3950
+Connection ~ 5300 3550
+Wire Wire Line
+	5900 3050 5550 3050
+Wire Wire Line
+	5300 3050 5300 2650
+Connection ~ 5550 3050
+Wire Wire Line
+	5550 3050 5300 3050
+Connection ~ 5300 2650
+Wire Wire Line
+	5900 2100 5550 2100
+Wire Wire Line
+	5300 2100 5300 1750
+Connection ~ 5550 2100
+Wire Wire Line
+	5550 2100 5300 2100
+Connection ~ 5300 1750
+$Comp
+L taobao-mounting-hole:MOUNT_M2.5 H1
+U 1 1 5CE9C820
+P 5900 6700
+F 0 "H1" H 6000 6750 50  0000 L CNN
+F 1 "MOUNT_M2.5" H 6000 6700 50  0000 L CNN
+F 2 "footprint-lib:MountingHole_2.7mm_M2.5,rpi_like" H 5900 6700 50  0001 C CNN
+F 3 "~" H 5900 6700 50  0001 C CNN
+	1    5900 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-mounting-hole:MOUNT_M2.5 H2
+U 1 1 5CE9CBD7
+P 5900 6900
+F 0 "H2" H 6000 6950 50  0000 L CNN
+F 1 "MOUNT_M2.5" H 6000 6900 50  0000 L CNN
+F 2 "footprint-lib:MountingHole_2.7mm_M2.5,rpi_like" H 5900 6900 50  0001 C CNN
+F 3 "~" H 5900 6900 50  0001 C CNN
+	1    5900 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-mounting-hole:MOUNT_M2.5 H3
+U 1 1 5CE9CD41
+P 5900 7100
+F 0 "H3" H 6000 7150 50  0000 L CNN
+F 1 "MOUNT_M2.5" H 6000 7100 50  0000 L CNN
+F 2 "footprint-lib:MountingHole_2.7mm_M2.5,rpi_like" H 5900 7100 50  0001 C CNN
+F 3 "~" H 5900 7100 50  0001 C CNN
+	1    5900 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-mounting-hole:MOUNT_M2.5 H4
+U 1 1 5CE9CE6C
+P 5900 7300
+F 0 "H4" H 6000 7350 50  0000 L CNN
+F 1 "MOUNT_M2.5" H 6000 7300 50  0000 L CNN
+F 2 "footprint-lib:MountingHole_2.7mm_M2.5,rpi_like" H 5900 7300 50  0001 C CNN
+F 3 "~" H 5900 7300 50  0001 C CNN
+	1    5900 7300
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
