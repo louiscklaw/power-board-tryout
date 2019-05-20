@@ -1,10 +1,11 @@
 EESchema Schematic File Version 4
 LIBS:power-board-tryout-cache
+LIBS:MP1584-tryout-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -739,4 +740,10 @@ F 3 "~" H 5900 7300 50  0001 C CNN
 	1    5900 7300
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 8500 1300 1000 550 
+U 5CE35579
+F0 "MP1584_TRYOUT" 50
+F1 "MP1584_TRYOUT.sch" 50
+$EndSheet
 $EndSCHEMATC
