@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
 LIBS:power-board-tryout-cache
-LIBS:MP1584-tryout-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -60,17 +59,6 @@ F 3 "" H 3500 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L taobao-board:MP1584-BREAKOUT-BOARD U5
-U 1 1 5CE2B54C
-P 3500 5300
-F 0 "U5" H 3500 5800 50  0000 C CNN
-F 1 "MP1584-BREAKOUT-BOARD" H 3500 5700 50  0000 C CNN
-F 2 "footprint-lib:MP1584_buck_module" H 3500 5300 50  0001 C CNN
-F 3 "" H 3500 5300 50  0001 C CNN
-	1    3500 5300
-	1    0    0    -1  
-$EndComp
-$Comp
 L Jumper:Jumper_2_Open JP1
 U 1 1 5CE2BEEF
 P 4700 1450
@@ -114,17 +102,6 @@ F 3 "~" H 4700 4200 50  0001 C CNN
 	1    4700 4200
 	1    0    0    -1  
 $EndComp
-$Comp
-L Jumper:Jumper_2_Open JP9
-U 1 1 5CE2D6EF
-P 4700 5150
-F 0 "JP9" H 4700 5400 50  0000 C CNN
-F 1 "Jumper_2_Open" H 4700 5300 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4700 5150 50  0001 C CNN
-F 3 "~" H 4700 5150 50  0001 C CNN
-	1    4700 5150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4100 1450 4500 1450
 Wire Wire Line
@@ -133,8 +110,6 @@ Wire Wire Line
 	4100 3300 4500 3300
 Wire Wire Line
 	4100 4200 4500 4200
-Wire Wire Line
-	4100 5150 4500 5150
 $Comp
 L Connector:Conn_01x02_Male J1
 U 1 1 5CE2E967
@@ -155,8 +130,6 @@ Wire Wire Line
 Wire Wire Line
 	4200 4500 4100 4500
 Wire Wire Line
-	4200 5450 4100 5450
-Wire Wire Line
 	2900 1450 2600 1450
 Wire Wire Line
 	2600 1450 2600 1500
@@ -176,21 +149,11 @@ Wire Wire Line
 	2600 4200 2900 4200
 Connection ~ 2600 3300
 Wire Wire Line
-	2600 4200 2600 5150
-Wire Wire Line
-	2600 5150 2900 5150
-Connection ~ 2600 4200
-Wire Wire Line
-	2900 5450 2800 5450
-Wire Wire Line
-	2800 5450 2800 4500
-Wire Wire Line
 	2800 4500 2900 4500
 Wire Wire Line
 	2800 4500 2800 3600
 Wire Wire Line
 	2800 3600 2900 3600
-Connection ~ 2800 4500
 Wire Wire Line
 	2800 3600 2800 2700
 Wire Wire Line
@@ -236,10 +199,10 @@ Wire Wire Line
 Text Label 2100 1500 0    50   ~ 0
 PWR
 $Comp
-L power:GND #PWR0101
+L power:GND #PWR01
 U 1 1 5CE3A947
 P 2050 1950
-F 0 "#PWR0101" H 2050 1700 50  0001 C CNN
+F 0 "#PWR01" H 2050 1700 50  0001 C CNN
 F 1 "GND" H 2100 1750 50  0000 C CNN
 F 2 "" H 2050 1950 50  0001 C CNN
 F 3 "" H 2050 1950 50  0001 C CNN
@@ -299,22 +262,6 @@ Connection ~ 4200 3600
 Wire Wire Line
 	4200 4500 4200 4450
 $Comp
-L Device:Jumper_NO_Small JP8
-U 1 1 5CE42DAC
-P 4200 4850
-F 0 "JP8" V 4150 4900 50  0000 L CNN
-F 1 "Jumper_NO_Small" V 4200 4900 50  0000 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4200 4850 50  0001 C CNN
-F 3 "~" H 4200 4850 50  0001 C CNN
-	1    4200 4850
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4200 4500 4200 4750
-Connection ~ 4200 4500
-Wire Wire Line
-	4200 4950 4200 5400
-$Comp
 L Connector:Conn_01x02_Male J3
 U 1 1 5CE466E7
 P 6500 2400
@@ -345,17 +292,6 @@ F 1 "AUX2_OUT" H 6450 4100 50  0000 R CNN
 F 2 "footprint-lib:PinHeader_1x02_P2.54mm_power_output_terminal" H 6500 4200 50  0001 C CNN
 F 3 "~" H 6500 4200 50  0001 C CNN
 	1    6500 4200
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x02_Male J6
-U 1 1 5CE499FD
-P 6500 5150
-F 0 "J6" H 6450 5150 50  0000 R CNN
-F 1 "AUX3_OUT" H 6450 5050 50  0000 R CNN
-F 2 "footprint-lib:PinHeader_1x02_P2.54mm_power_output_terminal" H 6500 5150 50  0001 C CNN
-F 3 "~" H 6500 5150 50  0001 C CNN
-	1    6500 5150
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -475,39 +411,6 @@ Wire Wire Line
 	5900 4850 5900 4800
 Wire Wire Line
 	5900 4550 5900 4600
-$Comp
-L taobao-led:LED_GREEN,0805 D5
-U 1 1 5CE6F135
-P 5900 5400
-F 0 "D5" V 5950 5300 50  0000 R CNN
-F 1 "LED_GREEN,0805" V 5900 5300 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5900 5400 50  0001 C CNN
-F 3 "" V 5900 5400 50  0001 C CNN
-	1    5900 5400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L taobao-r:R103,0805 R10
-U 1 1 5CE6F13F
-P 5900 5650
-F 0 "R10" H 6000 5700 50  0000 L CNN
-F 1 "R103,0805" H 6000 5650 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5900 5650 50  0001 C CNN
-F 3 "~" H 5900 5650 50  0001 C CNN
-	1    5900 5650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5900 5150 5900 5300
-Wire Wire Line
-	5900 5800 5900 5750
-Wire Wire Line
-	5900 5500 5900 5550
-Wire Wire Line
-	4900 5150 5550 5150
-Connection ~ 5900 5150
-Wire Wire Line
-	5900 5150 6300 5150
 Wire Wire Line
 	4900 4200 5550 4200
 Connection ~ 5900 4200
@@ -557,15 +460,6 @@ Wire Wire Line
 Connection ~ 4200 4450
 Wire Wire Line
 	4200 4450 4200 4100
-Wire Wire Line
-	4200 5400 5300 5400
-Wire Wire Line
-	5300 5400 5300 5250
-Wire Wire Line
-	5300 5250 6300 5250
-Connection ~ 4200 5400
-Wire Wire Line
-	4200 5400 4200 5450
 $Comp
 L taobao-varistor:VAR_5V6,0805 R1
 U 1 1 5CE303D3
@@ -638,32 +532,6 @@ Wire Wire Line
 Connection ~ 5550 4200
 Wire Wire Line
 	5550 4200 5900 4200
-$Comp
-L taobao-varistor:VAR_5V6,0805 R9
-U 1 1 5CE45FA9
-P 5550 5500
-F 0 "R9" H 5700 5550 50  0000 L CNN
-F 1 "VAR_5V6,0805" H 5700 5500 50  0000 L CNN
-F 2 "footprint-lib:VAR_0805" H 5550 5500 50  0001 C CNN
-F 3 "~" H 5550 5500 50  0001 C CNN
-	1    5550 5500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5550 5650 5550 5800
-Wire Wire Line
-	5550 5150 5550 5350
-Connection ~ 5550 5150
-Wire Wire Line
-	5550 5150 5900 5150
-Wire Wire Line
-	5900 5800 5550 5800
-Wire Wire Line
-	5550 5800 5300 5800
-Wire Wire Line
-	5300 5800 5300 5400
-Connection ~ 5550 5800
-Connection ~ 5300 5400
 Wire Wire Line
 	5300 4850 5300 4450
 Wire Wire Line
@@ -745,5 +613,10 @@ S 8500 1300 1000 550
 U 5CE35579
 F0 "MP1584_TRYOUT" 50
 F1 "MP1584_TRYOUT.sch" 50
+F2 "PWR" I L 8500 1550 50 
 $EndSheet
+Text Label 8000 1550 0    50   ~ 0
+PWR
+Wire Wire Line
+	8500 1550 8000 1550
 $EndSCHEMATC

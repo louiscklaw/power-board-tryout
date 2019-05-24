@@ -1,6 +1,26 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Connector_Conn_01x02_Female
+#
+DEF Connector_Conn_01x02_Female J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Conn_01x02_Female" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+A 0 -100 20 901 -901 1 1 6 N 0 -80 0 -120
+A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
+P 2 1 1 6 -50 -100 -20 -100 N
+P 2 1 1 6 -50 0 -20 0 N
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Connector_Conn_01x02_Male
 #
 DEF Connector_Conn_01x02_Male J 0 40 Y N 1 F N
@@ -18,29 +38,6 @@ P 2 1 1 6 50 -100 34 -100 N
 P 2 1 1 6 50 0 34 0 N
 X Pin_1 1 200 0 150 L 50 50 1 1 P
 X Pin_2 2 200 -100 150 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Connector_Conn_01x03_Female
-#
-DEF Connector_Conn_01x03_Female J 0 40 Y N 1 F N
-F0 "J" 0 200 50 H V C CNN
-F1 "Connector_Conn_01x03_Female" 0 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_1x??_*
-$ENDFPLIST
-DRAW
-A 0 -100 20 901 -901 1 1 6 N 0 -80 0 -120
-A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
-A 0 100 20 901 -901 1 1 6 N 0 120 0 80
-P 2 1 1 6 -50 -100 -20 -100 N
-P 2 1 1 6 -50 0 -20 0 N
-P 2 1 1 6 -50 100 -20 100 N
-X Pin_1 1 -200 100 150 R 50 50 1 1 P
-X Pin_2 2 -200 0 150 R 50 50 1 1 P
-X Pin_3 3 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -231,6 +228,26 @@ X THERMAL_VIA G 100 -500 200 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# taobao-d_D_1N4148_T4
+#
+DEF taobao-d_D_1N4148_T4 D 0 10 N N 1 F N
+F0 "D" -50 80 50 H V L CNN
+F1 "taobao-d_D_1N4148_T4" -150 -80 50 H V L CNN
+F2 "Diode_SMD:D_SOD-123" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+$FPLIST
+ ALIAS
+ *D*D_SOD-123*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -30 -40 -30 40 N
+P 2 0 1 0 -30 0 30 0 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 N
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # taobao-l_L_15uH
 #
 DEF taobao-l_L_15uH L 0 10 N N 1 F N
@@ -258,7 +275,7 @@ ENDDEF
 DEF taobao-led_LED_GREEN,0805 D 0 10 N N 1 F N
 F0 "D" -50 125 50 H V L CNN
 F1 "taobao-led_LED_GREEN,0805" -175 -100 50 H V L CNN
-F2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" 0 0 50 V I C CNN
+F2 "footprint-lib:LED_0805_2012Metric" 0 0 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
 $FPLIST
  *0805*
@@ -371,28 +388,6 @@ DRAW
 S -30 70 30 -70 0 1 8 N
 X ~ 1 0 100 30 D 50 50 1 1 P
 X ~ 2 0 -100 30 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# taobao-sd_SD_1N5822_SS34
-#
-DEF taobao-sd_SD_1N5822_SS34 D 0 10 N N 1 F N
-F0 "D" -50 80 50 H V L CNN
-F1 "taobao-sd_SD_1N5822_SS34" -280 -80 50 H V L CNN
-F2 "w_smd_diode:do214aa" 0 0 50 V I C CNN
-F3 "" 0 0 50 V I C CNN
-$FPLIST
- ALIAS
- *D*do214aa*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 -30 -40 -30 40 N
-P 2 0 1 0 -30 0 30 0 N
-P 3 0 1 0 -30 -40 -20 -40 -20 -30 N
-P 3 0 1 0 -30 40 -40 40 -40 30 N
-P 4 0 1 0 30 -40 -30 0 30 40 30 -40 N
-X K 1 -100 0 70 R 50 50 1 1 P
-X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
