@@ -6,13 +6,12 @@ My power supply capable a single channel voltage source only. If I need another 
 
 ### PCB outlook
 
-![PCB](_documentation/power-board-tryout.resized.png)
+![step](_documentation/power-board-tryout.png)
 
-
-####  This is the front side of the board we are populating
+####  This is the front side
 
 ![step](_documentation/img/populating_1.png)
 
-####  This is the back side of the board we are populating
+####  This is the back side
 
 ![step](_documentation/img/populating_2.png)
