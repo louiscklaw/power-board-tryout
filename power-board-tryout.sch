@@ -170,7 +170,7 @@ U 1 1 5CE378AC
 P 1350 1600
 F 0 "J2" H 1250 1950 50  0000 C CNN
 F 1 "Screw_Terminal_01x04" H 1250 1850 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1350 1600 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1350 1600 50  0001 C CNN
 F 3 "~" H 1350 1600 50  0001 C CNN
 	1    1350 1600
 	-1   0    0    -1  

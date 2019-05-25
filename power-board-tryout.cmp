@@ -1,11 +1,19 @@
-Cmp-Mod V01 Created by PcbNew   date = Fri May 24 23:25:54 2019
+Cmp-Mod V01 Created by PcbNew   date = Saturday, May 25, 2019 PM02:30:12 HKT
 
 BeginCmp
-TimeStamp = 5CE85EE0
-Path = /5CE35579/5CE0F530
+TimeStamp = 5CE8AAA5
+Path = /5CE35579/5CEA5AA1
+Reference = J7;
+ValeurCmp = POWER_OUT;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CE8AAED
+Path = /5CE35579/5CEABA63
 Reference = J6;
-ValeurCmp = Conn_01x03_Female;
-IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical;
+ValeurCmp = POWER_IN;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical;
 EndCmp
 
 BeginCmp
