@@ -1,4 +1,84 @@
-Cmp-Mod V01 Created by PcbNew   date = Saturday, May 25, 2019 PM02:30:12 HKT
+Cmp-Mod V01 Created by PcbNew   date = Saturday, May 25, 2019 PM03:55:53 HKT
+
+BeginCmp
+TimeStamp = 5CE32889
+Path = /5CE2B231
+Reference = U4;
+ValeurCmp = MP1584-BREAKOUT-BOARD;
+IdModule  = footprint-lib:MP1584_buck_module;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CE32836
+Path = /5CE2AF23
+Reference = U3;
+ValeurCmp = MP1584-BREAKOUT-BOARD;
+IdModule  = footprint-lib:MP1584_buck_module;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CE327E3
+Path = /5CE2AB7C
+Reference = U2;
+ValeurCmp = MP1584-BREAKOUT-BOARD;
+IdModule  = footprint-lib:MP1584_buck_module;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CE32790
+Path = /5CE2A93C
+Reference = U1;
+ValeurCmp = MP1584-BREAKOUT-BOARD;
+IdModule  = footprint-lib:MP1584_buck_module;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CE9229F
+Path = /5CE35579/5CF154E2
+Reference = D6;
+ValeurCmp = LED_GREEN,0805;
+IdModule  = footprint-lib:LED_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CE3257C
+Path = /5CE670DC
+Reference = D4;
+ValeurCmp = LED_GREEN,0805;
+IdModule  = footprint-lib:LED_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CE32569
+Path = /5CE5F548
+Reference = D3;
+ValeurCmp = LED_GREEN,0805;
+IdModule  = footprint-lib:LED_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CE32556
+Path = /5CE5B412
+Reference = D2;
+ValeurCmp = LED_GREEN,0805;
+IdModule  = footprint-lib:LED_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CE32543
+Path = /5CE4AC96
+Reference = D1;
+ValeurCmp = LED_GREEN,0805;
+IdModule  = footprint-lib:LED_0805_2012Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CE92DDA
+Path = /5CE35579/5CF154E8
+Reference = R15;
+ValeurCmp = R103,0805;
+IdModule  = Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
+EndCmp
 
 BeginCmp
 TimeStamp = 5CE8AAA5
@@ -193,38 +273,6 @@ IdModule  = footprint-lib:PinHeader_1x02_P2.54mm_power_output_terminal;
 EndCmp
 
 BeginCmp
-TimeStamp = 5CE32889
-Path = /5CE2B231
-Reference = U4;
-ValeurCmp = MP1584-BREAKOUT-BOARD;
-IdModule  = footprint-lib:MP1584_buck_module;
-EndCmp
-
-BeginCmp
-TimeStamp = 5CE32836
-Path = /5CE2AF23
-Reference = U3;
-ValeurCmp = MP1584-BREAKOUT-BOARD;
-IdModule  = footprint-lib:MP1584_buck_module;
-EndCmp
-
-BeginCmp
-TimeStamp = 5CE327E3
-Path = /5CE2AB7C
-Reference = U2;
-ValeurCmp = MP1584-BREAKOUT-BOARD;
-IdModule  = footprint-lib:MP1584_buck_module;
-EndCmp
-
-BeginCmp
-TimeStamp = 5CE32790
-Path = /5CE2A93C
-Reference = U1;
-ValeurCmp = MP1584-BREAKOUT-BOARD;
-IdModule  = footprint-lib:MP1584_buck_module;
-EndCmp
-
-BeginCmp
 TimeStamp = 5CE3271B
 Path = /5CE670E6
 Reference = R8;
@@ -350,38 +398,6 @@ Path = /5CE378AC
 Reference = J2;
 ValeurCmp = Screw_Terminal_01x04;
 IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical;
-EndCmp
-
-BeginCmp
-TimeStamp = 5CE3257C
-Path = /5CE670DC
-Reference = D4;
-ValeurCmp = LED_GREEN,0805;
-IdModule  = LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
-EndCmp
-
-BeginCmp
-TimeStamp = 5CE32569
-Path = /5CE5F548
-Reference = D3;
-ValeurCmp = LED_GREEN,0805;
-IdModule  = LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
-EndCmp
-
-BeginCmp
-TimeStamp = 5CE32556
-Path = /5CE5B412
-Reference = D2;
-ValeurCmp = LED_GREEN,0805;
-IdModule  = LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
-EndCmp
-
-BeginCmp
-TimeStamp = 5CE32543
-Path = /5CE4AC96
-Reference = D1;
-ValeurCmp = LED_GREEN,0805;
-IdModule  = LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
 EndCmp
 
 EndListe
