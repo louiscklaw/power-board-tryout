@@ -1,4 +1,4 @@
-19504610978841240
+19538035847936068
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -44056,7 +44056,7 @@ module CMS SOT223 4 pins
 CMS SOT
 0
 8
-4
+3
 footprint-lib
 AQ_mpt_0,5%2f4-2,54
 4-way 2.54mm pitch terminal block, Phoenix MPT series
@@ -44071,6 +44071,13 @@ Arduino Nano
 0
 30
 30
+footprint-lib
+ATMEGA328
+32-Lead Plastic Thin Quad Flatpack (PT) - 7x7x1.0 mm Body, 2.00 mm [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
+ATMEGA328
+0
+40
+32
 footprint-lib
 b2b-ph-kl,end_stop
 JST PH series connector, B2B-PH-KL
@@ -44121,12 +44128,33 @@ connector jst xh
 4
 4
 footprint-lib
+bluepill_socket
+STM32F103C8 BluePill board
+
+0
+42
+42
+footprint-lib
 BLUEPILL_SWD
 BLUEPILL SWD TERMINAL
 BLUEPILL SWD STM32
 0
 4
 4
+footprint-lib
+bq25606_VQFN24
+VQFN, 24 Pin (http://www.ti.com/lit/ds/symlink/msp430f1101a.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
+bq25606 VQFN24
+0
+39
+25
+footprint-lib
+cherry_mx_without_led_100H
+cherry mx keyboard key button
+cherry mx keyboard key button
+0
+2
+2
 footprint-lib
 conn_01_04_board_splitter
 
@@ -44156,6 +44184,13 @@ SSD1306 SPI
 7
 7
 footprint-lib
+CP2102_qfn28
+QFN, 28 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=283), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
+CP2102_qfn28 CP2102
+0
+29
+29
+footprint-lib
 CSTCE8M00G52-R0
 
 
@@ -44184,7 +44219,7 @@ DC_SOCKET
 3
 3
 footprint-lib
-DFN-6-1EP_3x3mm_Pitch0.95mm
+DFN-6-1EP_3x3mm_Pitch0.95mm_copy
 DFN6 3*3 MM, 0.95 PITCH; CASE 506AH-01 (see ON Semiconductor 506AH.PDF)
 DFN 0.95
 0
@@ -44218,6 +44253,20 @@ FBGA96-UNIVERSAL PACKAGE
 0
 100
 100
+footprint-lib
+FE1.1_LQFP48
+48 LEAD LQFP 7x7mm (see MICREL LQFP7x7-48LD-PL-1.pdf)
+QFP 0.5
+0
+58
+48
+footprint-lib
+FE11_SSOP-28
+SSOP28: plastic shrink small outline package; 28 leads; body width 3.9 mm; lead pitch 0.635; (see http://cds.linear.com/docs/en/datasheet/38901fb.pdf)
+FE1.1
+0
+28
+28
 footprint-lib
 flow_mpt_0,5%2f5-2,54
 5-way 2.54mm pitch terminal block, Phoenix MPT series
@@ -44318,11 +44367,18 @@ HLT1160
 3
 footprint-lib
 I2C_DEBUG
-I2C DEBUG
-I2C DEBUG
+Through hole straight pin header, 1x02, 1.27mm pitch, single row
+Through hole pin header THT 1x02 1.27mm single row
 0
-4
-4
+2
+2
+footprint-lib
+I2C_DEBUG,2.54
+I2C_HEADER,2.54
+I2C_HEADER,2.54 I2C_DEBUG,2.54
+0
+2
+2
 footprint-lib
 KF141V141R_Straight_1x02_Pitch2.54mm
 Through hole straight pin header, 1x02, 2.54mm pitch, single row
@@ -44394,9 +44450,9 @@ diode
 2
 2
 footprint-lib
-LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
+LED_WS2812B_5050_white
 https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
-LED RGB NeoPixel
+LED_WS2812B_5050_white WS2812 5050
 0
 4
 4
@@ -44415,6 +44471,20 @@ LoRa Ra-01
 16
 16
 footprint-lib
+LORA_DEBUG1
+LORA_DEBUG1
+LORA_DEBUG1
+0
+8
+8
+footprint-lib
+LORA_DEBUG2
+LORA_DEBUG2
+LORA_DEBUG2
+0
+8
+8
+footprint-lib
 louislabs_qr_logo
 
 
@@ -44428,13 +44498,6 @@ louislabs_sign
 0
 99
 1
-footprint-lib
-LQFP-48_7x7mm_Pitch0.5mm
-48 LEAD LQFP 7x7mm (see MICREL LQFP7x7-48LD-PL-1.pdf)
-QFP 0.5
-0
-48
-48
 footprint-lib
 L_CD43
 Inductor SMD, d.4.8mm x h.2.8mm
@@ -44590,6 +44653,13 @@ nano-sim-card-holder
 8
 7
 footprint-lib
+NodeMCU1.0(12-E)
+
+
+0
+30
+30
+footprint-lib
 O3_mpt_0,5%2f4-2,54
 4-way 2.54mm pitch terminal block, Phoenix MPT series
 
@@ -44632,6 +44702,13 @@ QUARTZ HC-49 SMD 3225
 8
 4
 footprint-lib
+PCF8575C
+TSSOP24: plastic thin shrink small outline package; 24 leads; body width 4.4 mm; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot355-1_po.pdf)
+PCF8575C
+0
+24
+24
+footprint-lib
 PC_FAN_s4b-ph-kl
 JST PH series connector, S4B-PH-KL
 
@@ -44653,12 +44730,26 @@ phoenix_contact connector MCV_01x03_G_5.08mm
 3
 3
 footprint-lib
-PinHeader_1x02_P2.54mm_power_output_terminal
+PinHeader_1x02_P2.54mm_power_output_terminal_copy
 Through hole straight pin header, 1x02, 2.54mm pitch, single row
 Through hole pin header THT 1x02 2.54mm single row
 0
 2
 2
+footprint-lib
+PinHeader_1x06_P1.27mm_Vertical
+Through hole straight pin header, 1x06, 1.27mm pitch, single row
+Through hole pin header THT 1x06 1.27mm single row
+0
+6
+6
+footprint-lib
+PinHeader_2x02_P2.54mm_Vertical
+Through hole straight pin header, 2x02, 2.54mm pitch, double rows
+Through hole pin header THT 2x02 2.54mm double row
+0
+4
+4
 footprint-lib
 PinHeader_2x03_P2.54mm_Vertical_with_soldering_jumper
 Through hole straight pin header, 2x03, 2.54mm pitch, double rows
@@ -45304,6 +45395,13 @@ RL-SM02BD(RTL8723BS)
 46
 46
 footprint-lib
+RotaryEncoder_Alps_EC11E_Vertical_H20mm
+Alps rotary encoder, EC12E... without switch (pins are dummy), vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+7
+6
+footprint-lib
 R_0805_HandSoldering
 Resistor SMD 0805, hand soldering
 resistor 0805
@@ -45395,6 +45493,27 @@ screw_terminal_01_02
 2
 2
 footprint-lib
+SDCARD_HEADER
+Through hole straight pin header, 1x06, 1.27mm pitch, single row
+SDCARD HEADER
+0
+6
+6
+footprint-lib
+SDCARD_HEADER_10PIN
+Through hole straight pin header, 1x10, 1.27mm pitch, single row
+SDCARD HEADER 10
+0
+10
+10
+footprint-lib
+SHT20
+SHT20
+SHT20
+0
+10
+7
+footprint-lib
 sim-holder
 
 
@@ -45437,6 +45556,13 @@ SOIC 1.27
 20
 8
 footprint-lib
+SOIC127P790X216-8N
+
+
+0
+8
+8
+footprint-lib
 SOP-16_4.4x10.4mm_Pitch1.27mm
 16-Lead Plastic Small Outline http://www.vishay.com/docs/49633/sg2098.pdf
 SOP 1.27
@@ -45458,12 +45584,33 @@ CMS SOT
 4
 4
 footprint-lib
+SPI_DEBUG
+Through hole straight pin header, 1x04, 1.27mm pitch, single row
+SPI DEBUG
+0
+4
+4
+footprint-lib
 SS12,do214ac
 DO214AC SS12
 SS12
 0
 2
 2
+footprint-lib
+SSD1306_OLED-0.91-128x32_4pin
+Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+OLED SSD1306 12832
+0
+4
+4
+footprint-lib
+SSD1306_OLED-0.91-128x32_14pin
+
+SSD1306 12832
+0
+14
+14
 footprint-lib
 SSOP-20_4.4x6.5mm_Pitch0.65mm
 SSOP20: plastic shrink small outline package; 20 leads; body width 4.4 mm; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot266-1_po.pdf)
@@ -45479,11 +45626,18 @@ JST PH series connector, S2B-PH-KL
 2
 2
 footprint-lib
+STM32F103C8T6
+48 LEAD LQFP 7x7mm (see MICREL LQFP7x7-48LD-PL-1.pdf) STM32F103C8T6
+STM32F103C8T6
+0
+58
+48
+footprint-lib
 stm32_LQFP-48_7x7mm_P0.5mm
 48 LEAD LQFP 7x7mm (see MICREL LQFP7x7-48LD-PL-1.pdf)
 QFP 0.5
 0
-52
+58
 48
 footprint-lib
 STM32_PWR_SRC_s3b-ph-kl
@@ -45556,12 +45710,40 @@ D2PAK DDPAK TO-263 D2PAK-5 TO-263-5 SOT-426
 35
 5
 footprint-lib
+TPD4S012
+
+
+0
+6
+6
+footprint-lib
+TPS54335ADDAR
+
+
+0
+13
+9
+footprint-lib
+TPS54340
+Texas Instruments HSOP 9, 1.27mm pitch, 3.9x4.9mm body, exposed pad, thermal vias, DDA0008J (http://www.ti.com/lit/ds/symlink/tps5430.pdf)
+TPS54340
+0
+20
+9
+footprint-lib
 TSOT-23-6_HandSoldering
 6-pin TSOT23 package, http://cds.linear.com/docs/en/packaging/SOT_6_05-08-1636.pdf
 TSOT-23-6 MK06A TSOT-6 Hand-soldering
 0
 6
 6
+footprint-lib
+TTL_HEADER
+Through hole straight pin header, 1x03, 1.27mm pitch, single row
+Through hole pin header THT 1x03 1.27mm single row
+0
+3
+3
 footprint-lib
 TTL_TERMINAL_1.27mm
 TTL DEBUG TERMINAL
@@ -45584,6 +45766,13 @@ TYCO-2-2013022
 208
 204
 footprint-lib
+UBLOX-NEO-6M_DEBUG
+Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x04 2.54mm single row
+0
+4
+4
+footprint-lib
 UQFN-28-1EP_4x4mm_P0.4mm_EP2.35x2.35mm_handsoldering
 28-Lead Plastic Ultra Thin Quad Flat, No Lead Package (MV) - 4x4x0.5 mm Body [UQFN]; (see Microchip Packaging Specification 00000049BS.pdf)
 QFN 0.4
@@ -45605,6 +45794,13 @@ usb-PCB
 4
 4
 footprint-lib
+USBLC6-2SC6_SOT23-6
+USBLC6-2SC6_SOT23-6
+USBLC6-2SC6_SOT23-6
+0
+6
+6
+footprint-lib
 USB_B_F_X2
 USB_B_F_X2
 
@@ -45617,7 +45813,7 @@ http://www.molex.com/pdm_docs/sd/1050170001_sd.pdf
 Micro-USB SMD Typ-B
 0
 13
-6
+9
 footprint-lib
 USB_PN87520_HOST_PTH
 
@@ -45653,6 +45849,13 @@ varistor 0805
 0
 2
 2
+footprint-lib
+W25Q32JVSSIQ
+
+
+0
+8
+8
 footprint-lib
 waveshare-swd-pinsocket
 Through hole straight socket strip, 2x04, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated
